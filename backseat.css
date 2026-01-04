@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html {
+    display: flex;
+    flex-direction: column;
+    background: blue;
+}
+li{
+    list-style: none;
+}
+.navbar, .nav-right, .nav-left {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.logo-img {
+    background: blue;
+    height: 20px;
+    width: 20px;
+}
+.navbar {
+    background: black;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.navbar li {
+    font-size: 13px;
+}
+.nav-left {
+    gap: 120px;
+}
+.nav-left li {
+    margin-right: 20px;
+}
+.nav-cent {
+    padding-left: 60vh;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.search-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+}
+.search-bar input {
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    background: none;
+    color: white;
+ 
+}
+i {
+    color: white;
+}
+.cart a span{
+    color: white;
+    text-decoration: none;
+    
+}
+.bottom-nav {
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+.bottom-nav ul {
+    display: flex;
+    flex-direction: row; 
+    gap: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14px;
+}
+.bottom-nav ul a{
+    text-decoration: none;
+    color: black;
+}
+.bottom-nav ul a span {
+    color: red;
+}
