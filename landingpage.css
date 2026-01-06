@@ -198,3 +198,45 @@ a {
     transform: scaleY(0.4);
     transition: 0.3s;
 }
+@media (max-width: 768px) {
+    .title {
+        max-width: 900px;
+        margin: 100px auto 0;
+        padding: 30px;
+
+    }
+    .nav-bar {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .nav-left, .nav-right {
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .heading2 {
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: -2px;
+    line-height: 1;
+    padding: 2px;
+    text-align: center;
+   }
+   .heading3 h3 {
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 2px;
+    font-weight: lighter;
+   }
+   .box1, .box2, .box3 {
+    width: 130%;
+   }
+   .nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+}
