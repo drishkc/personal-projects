@@ -88,4 +88,24 @@ i {
 }
 .bottom-nav ul a span {
     color: red;
+    position: relative;
+    display: inline-block;
+    animation: animSale 1s ease-in-out infinite;
+}
+
+@keyframes animSale {
+    0%{
+        transform: scale(0.9);
+        opacity: 1;
+    }
+
+    50%{
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100%{
+        transform: scale(0.9);
+        opacity: 1;
+    }
 }

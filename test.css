@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cont {
+    height: 200px;
+    width: 200px;
+    background: black;
+    position: relative;
+    overflow: hidden;
+}
+.cont:hover {
+    background-image: url(cat.jpg);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.9s ease;
+
+}
